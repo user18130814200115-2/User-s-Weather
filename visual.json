@@ -1,0 +1,22 @@
+var emoji;
+
+data = '{ "Patchy light rain with thunder" : "thunder.png",\
+	"Thundery outbreaks possible" : "thunder.png",\
+	"Moderate or heavy rain shower" : "rain.png",\
+	"Moderate rain" : "rain.png",\
+	"Heavy rain" : "rain.png",\
+	"Torrential rain shower" : "rain.png",\
+	"Moderate rain at times" : "rain.png",\
+	"Patchy rain possible" : "rain.png",\
+	"Light drizzle" : "rain.png",\
+	"Light rain shower" : "rain.png",\
+	"Partly cloudy" : "suncloud.png",\
+	"Overcast" : "cloud.png",\
+	"Sunny" : "sun.png",\
+	"Patches of fog" : "fog.png",\
+	"Light freezing rain" : "snow.png",\
+	"Cloudy" : "cloud.png" }'
+
+function load() {
+	emoji = JSON.parse(data);
+}

@@ -1,0 +1,14 @@
+.weather {
+	text-align: center;
+}
+#visual {
+	padding-top: 5px;
+	height: 75px;
+}
+.emoji {
+	height: 64px;
+	width: 64px;
+}
+p {
+	font-size: 13px !important;
+}
