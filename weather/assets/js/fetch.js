@@ -18,20 +18,13 @@ function LoadRemoteData() {
     .catch(function (err) {
         document.getElementById("daily").innerHTML = "<br>" + err;
     });
-
-fetch("https://wttr.in/?format=%c")
-        .then(response => response.text())
-        .then((response) => {
-            
-        })
-        .catch(err => console.log(err))
 }
 
 function updateHours() {
     var desc = jsondata.weather[day].hourly[hour].weatherDesc[0].value;
     //document.getElementById("visual").innerHTML = twemoji.parse(emoji[desc]);
     document.getElementById("visual").innerHTML = "<img class='emoji' alt=\'" + desc + "\' src=assets/emoji/" + emoji[desc] + ">";
-	document.getElementById("hourly").innerHTML = "<br><b>Hourly:</b><br>" + jsondata.weather[day].hourly[hour].weatherDesc[0].value + "<br>" + jsondata.weather[day].hourly[hour].chanceofrain + "% chance of rain<br>" + jsondata.weather[day].hourly[hour].chanceofovercast + "% chance of overcast<br><br>";
+	document.getElementById("hourly").innerHTML = "<br><b>Hourly:</b><br>" + jsondata.weather[day].hourly[hour].weatherDesc[0].value + "<br>" + jsondata.weather[day].hourly[hour].chanceofrain + "% chance of rain<br>" + jsondata.weather[day].hourly[hour].chanceofovercast + "% chance of overcast";
 	document.getElementById("software-keys-center").innerHTML = (hour+0)*3 + ":00 - " + (hour+1)*3 + ":00";
 }
 
@@ -41,12 +34,14 @@ function printData() {
 }
 
 function reload() {
+	
+	if (navigator.onLine == false) {
+		document.getElementById("error").innerHTML = "Device is not connected to the internet";
+	}
+	today = new Date();
+  	hour = Math.floor(today.getHours()/3);
 
-    today = new Date();
-    hour = Math.floor(today.getHours()/3);
-
-    LoadRemoteData();
-
+   	LoadRemoteData();
 }
 window.onload = function() {
   reload();

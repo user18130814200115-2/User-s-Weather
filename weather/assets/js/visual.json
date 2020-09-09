@@ -8,6 +8,7 @@ data = '{ "Patchy light rain with thunder" : "thunder.png",\
 	"Torrential rain shower" : "rain.png",\
 	"Moderate rain at times" : "rain.png",\
 	"Patchy rain possible" : "rain.png",\
+	"Patchy light drizzle" : "rain.png",\
 	"Light drizzle" : "rain.png",\
 	"Light rain shower" : "rain.png",\
 	"Partly cloudy" : "suncloud.png",\
