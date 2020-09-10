@@ -16,8 +16,8 @@ data = '{ "Patchy light rain with thunder" : "thunder.png",\
 	"Sunny" : "sun.png",\
 	"Patches of fog" : "fog.png",\
 	"Light freezing rain" : "snow.png",\
-	"mist" : "fog.png",\
-	"clear" : "sun.png",\
+	"Mist" : "fog.png",\
+	"Clear" : "sun.png",\
 	"Cloudy" : "cloud.png" }'
 
 function load() {
