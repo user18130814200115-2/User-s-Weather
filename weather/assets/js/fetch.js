@@ -13,7 +13,7 @@ function LoadRemoteData() {
 
 function updateHours() {
     var e = jsondata.weather[day].hourly[hour].weatherDesc[0].value;
-    document.getElementById("visual").innerHTML = "<img class='emoji' alt='" + e + "' src=assets/emoji/" + emoji[e] + ">", document.getElementById("hourly").innerHTML = "<b>Hourly:</b><br>" + jsondata.weather[day].hourly[hour].weatherDesc[0].value + "<br>" + jsondata.weather[day].hourly[hour].chanceofrain + "% chance of rain<br>" + jsondata.weather[day].hourly[hour].chanceofovercast + "% chance of overcast", document.getElementById("software-keys-center").innerHTML = 3 * (hour + 0) + ":00 - " + 3 * (hour + 1) + ":00"
+    document.getElementById("visual").innerHTML = "<img class='emoji' alt='" + e + "' src=assets/emoji/" + emoji[e] + ">", document.getElementById("hourly").innerHTML = "<b>Hourly:</b><br>" + jsondata.weather[day].hourly[hour].weatherDesc[0].value + "<br>" + jsondata.weather[day].hourly[hour].chanceofrain + "% chance of rain<br>" + jsondata.weather[day].hourly[hour].chanceofovercast + "% chance of overcast", document.getElementById("time").innerHTML = 3 * (hour + 0) + ":00 - " + 3 * (hour + 1) + ":00"
 }
 
 function printData() {
