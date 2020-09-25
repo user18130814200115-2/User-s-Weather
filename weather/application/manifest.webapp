@@ -2,7 +2,7 @@
 	"name":"Weather",
 	"description":"Weather",
 	"launch_path":"/index.html",
-	"type":"certified",
+	"type":"packaged",
 	"default_locale":"en-US",
 	"permissions":{"softkey":{}},
 	"theme_color":"#20afcc",
