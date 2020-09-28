@@ -25,8 +25,6 @@ function printData() {
 function reload() {
     0 == navigator.onLine && alert("Device is not connected to the internet"), today = new Date, hour = Math.floor(today.getHours() / 3), LoadRemoteData()
 }
-load(), window.onload = function() {
-    reload()
-}, document.onkeypress = function(e) {
+load(), document.onkeypress = function(e) {
     37 == (e = e || window.event).keyCode ? ((hour += -1) < 0 && (0 < day ? (hour = 7, --day, printData()) : hour = 0), updateHours()) : 39 == e.keyCode ? (7 < (hour += 1) && (day < 3 ? (hour = 0, day += 1, printData()) : hour = 7), updateHours()) : 38 == e.keyCode ? reload() : 13 == e.keyCode && (url = "https://wttr.in/" + document.getElementById("placeinput").value + "?format=j1", document.getElementById("placeinput").value = "", LoadRemoteData())
 };
