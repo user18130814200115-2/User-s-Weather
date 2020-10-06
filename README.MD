@@ -12,7 +12,7 @@ The app is distributed in OmniSD/Gerda package format. Just download the latest 
 
 ## Web IDE
 - Download the latest release
-- unzip userssudoku.zip
+- unzip weather.zip
 - unzip application.zip
 - Open WebIDE
 - Click "Open Packaged App" and select the application folder
