@@ -1,5 +1,5 @@
 # The app
-This is a simple, one screen, weather app made for kaiOS devices, specifically the Nokia 8110. It uses [wttr.in](https://github.com/chubin/wttr.in) as its backend and can be found in the [banana hackers webstore](https://store.bananahackers.net/).
+This is a simple, one screen, weather app made for kaiOS devices, specifically the Nokia 8110. It uses [wttr.in](https://github.com/chubin/wttr.in) as its backend and can be found in the [banana hackers webstore](https://store.bananahackers.net/).  
 ![screenshot](2020-08-12-15-54-57.png)
 
 ## Versions
