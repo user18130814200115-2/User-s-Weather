@@ -1,4 +1,6 @@
-Donations will go to funding the website. Any and all donations are very much appreciated, but no one should ever feel obligated to donate.  
+Mirror of donation info on [my website](https://twester.tk/ssg/donations.html)
+
+Any and all donations are very much appreciated, but no one should ever feel obligated to donate.  
 There are multiple ways in which you can donate:  
 </p><p>
 For traditional-style donations,  
