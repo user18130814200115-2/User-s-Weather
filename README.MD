@@ -1,5 +1,6 @@
 # The app
 This is a simple, one screen, weather app made for kaiOS devices, specifically the Nokia 8110. It uses [wttr.in](https://github.com/chubin/wttr.in) as its backend and can be found in the [banana hackers webstore](https://store.bananahackers.net/).
+![screenshot](2020-08-12-15-54-57.png)
 
 ## Versions
 There are 2 versions of the app. The geolocation version which uses the devices gps as well as wifi scanning to determine it's location before fetching the weather data, this is usefull for vpn users and occasionaly MAY give higher accuracy. The master version uses your public IP to determine your phones location, this is outsourced to [wttr.in](https://github.com/chubin/wttr.in). This version of the app will run faster and is therefore reccomended.
