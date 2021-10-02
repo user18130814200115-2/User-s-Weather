@@ -25,6 +25,6 @@ The app will automatically give you weather information about the location close
 
 # Donation
 Any and all donations are very much appreciated, but no one should ever feel obligated to donate.
-Donations go trough [my website](https://twester.tk/ssg/donations.html)
+Donations go trough [my website](https://wester.digital/ssg/donations.html)
 
 Everything is apreiciated
