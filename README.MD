@@ -21,10 +21,3 @@ The app is distributed in OmniSD/Gerda package format. Just download the latest 
 
 # Usage
 The app will automatically give you weather information about the location closest to you, you can also enter any city and the app will fetch the data for that city (or one close to it). The app gives you forecasts for 3 days ahead and the data is stored on your device, meaning you can always check the weather after fetching it without needing an active internet connection.
-
-
-# Donation
-Any and all donations are very much appreciated, but no one should ever feel obligated to donate.
-Donations go trough [my website](https://wester.digital/ssg/donations.html)
-
-Everything is apreiciated
